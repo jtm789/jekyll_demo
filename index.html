@@ -5,7 +5,14 @@ title:我的博客
 <h2>{{page.title}}</h2>
 <p>最新文章</p>
 <ul>
+<<<<<<< HEAD
 {% for post in site.posts %}
 <li>{{post.date|date_to_string}}<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 {%endfor%}
 </ul>
+=======
+　　{% for post in site.posts %}
+　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
+>>>>>>> f7ffa4cf2c0bc6ac9e740694b5f620d4bb456878
